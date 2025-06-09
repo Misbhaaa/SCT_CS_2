@@ -1,8 +1,3 @@
-Got it! Here's a professional and clear `README.md` file for **Task 2** of your **SkillCraft Cyber Security Internship** – where you developed an **Image Encryption/Decryption Tool using Pixel Manipulation** in Python.
-
----
-
-```markdown
 # 🖼️ Image Encryption & Decryption Tool – Pixel Manipulation | SCT_CS_Task2
 
 This project is submitted as **Task 2** of the **Cyber Security Internship** offered by **SkillCraft Technology**.
@@ -23,16 +18,6 @@ Build a simple **Image Encryption Tool** using **pixel-level manipulation**. The
 - 📂 File browser for selecting images
 - 💡 Supports `.png`, `.jpg`, and `.jpeg` formats
 
-## 📂 Project Structure
-
-```
-
-SCT\_CS\_Task2/
-├── image\_encryptor.py
-├── README.md
-
-````
-
 ## 🚀 How to Run
 
 ### Requirements
@@ -40,34 +25,13 @@ SCT\_CS\_Task2/
 - PIL (Pillow library)
 
 ### Installation
-```bash
 pip install pillow
-````
+
 
 ### Running the App
-
-```bash
 python image_encryptor.py
-```
 
 
-
-## 🧠 Concepts Used
-
-* Image processing with Pillow
-* RGB pixel manipulation
-* Basic cryptographic concepts using transformation functions
-* GUI programming with Tkinter
-
-
-
-## 🏷️ Tags
-
-`#CyberSecurity` `#Python` `#PixelManipulation` `#ImageEncryption` `#InternshipProject` `#Tkinter` `#PIL` `#SkillCraftInternship`
 
 ## 📜 License
-
 This project is open source and available under the MIT License.
-
-```
-
