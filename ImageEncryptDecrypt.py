@@ -5,11 +5,11 @@ def caesar_encrypt(text, shift):
             shift_base = ord('A') if char.isupper() else ord('a')
             result += chr((ord(char) - shift_base + shift) % 26 + shift_base)
         else:
-            result += char  # Keep non-alphabetic characters unchanged
+            result += char  
     return result
 
 def caesar_decrypt(text, shift):
-    return caesar_encrypt(text, -shift)  # Just reverse the shift
+    return caesar_encrypt(text, -shift)  
 
 def main():
     print("=== Caesar Cipher Tool ===")
